@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height: 100%;
+	background-image: linear-gradient(white, #a2f2ea);
+}
+.content{
+	height: 100%;
+	width: auto;
+	margin: auto;
+	
+}
+
+.container{
+	width: auto;
+	height: 100%;
+	margin: auto;
+	
+}
+
+h1{
+	text-decoration: underline;
+	text-align: center;
+}
+
+img{
+	float: right;
+	width: 40%;
+	height: auto;
+	top: 20px;
+}
+
+h3{
+	padding-left: 5%;
+}
+
+p{
+	font-size: 24px;
+}
+
+.sidebar{
+	float: left;
+	background-color: #d3d3d3;
+	width:40%;
+	height: 100%;
+	padding: 20px;
+}
+
+.sidebar_2{
+	float: left;
+	width:40%;
+	height: 100%;
+	padding: 20px;
+}
+button{
+	background-color: #42f4ee;
+	margin: auto;
+	text-decoration: none;
+	border: 1px solid #777;
+	border-radius: 20px;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	
+}	
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+	float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
